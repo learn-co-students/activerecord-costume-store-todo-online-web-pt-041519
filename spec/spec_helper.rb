@@ -22,7 +22,7 @@ end
 
 def get_opening_time
   d = Date.today
-  Time.new(d.year, d.month, d.day, 9, 00)
+  Time.new(d.year, d.month, d.day, 9)
 end
 
 def get_closing_time
